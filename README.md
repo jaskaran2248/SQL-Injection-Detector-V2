@@ -16,6 +16,7 @@ A professional web-based tool for detecting SQL injection vulnerabilities in web
 - 🎨 **Modern Web Interface** - Clean, responsive UI
 
 ## 🚀 Quick Start
+python app.py
 
 ### Prerequisites
 - Python 3.8+
