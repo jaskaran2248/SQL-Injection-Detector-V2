@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "target": "https://www.canva.com/",
+  "deep_scan": true,
+  "total_vulnerabilities": 0,
+  "risk_score": 0,
+  "vulnerabilities": [],
+  "scan_id": "7ab961b2",
+  "timestamp": "2026-06-09T11:29:30.938248"
+}

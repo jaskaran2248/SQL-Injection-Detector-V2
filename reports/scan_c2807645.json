@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "target": "https://claude.ai/new",
+  "deep_scan": true,
+  "total_vulnerabilities": 0,
+  "risk_score": 0,
+  "vulnerabilities": [],
+  "scan_id": "c2807645",
+  "timestamp": "2026-06-09T11:25:02.124202"
+}

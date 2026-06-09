@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "target": "https://www.youtube.com/",
+  "deep_scan": true,
+  "total_vulnerabilities": 5,
+  "risk_score": 100,
+  "vulnerabilities": [
+    {
+      "parameter": "utm_campaign",
+      "payload": "ytgen1' AND '1'='2",
+      "type": "Boolean-based Blind SQL Injection",
+      "evidence": "Boolean-based difference detected",
+      "severity": "MEDIUM",
+      "location": "https://www.youtube.com/howyoutubeworks",
+      "timestamp": "2026-06-09T12:57:46.912880"
+    },
+    {
+      "parameter": "utm_source",
+      "payload": "ythp1' AND '1'='2",
+      "type": "Boolean-based Blind SQL Injection",
+      "evidence": "Boolean-based difference detected",
+      "severity": "MEDIUM",
+      "location": "https://www.youtube.com/howyoutubeworks",
+      "timestamp": "2026-06-09T12:57:49.235003"
+    },
+    {
+      "parameter": "utm_medium",
+      "payload": "LeftNav1' AND '1'='2",
+      "type": "Boolean-based Blind SQL Injection",
+      "evidence": "Boolean-based difference detected",
+      "severity": "MEDIUM",
+      "location": "https://www.youtube.com/howyoutubeworks",
+      "timestamp": "2026-06-09T12:57:51.646483"
+    },
+    {
+      "parameter": "utm_content",
+      "payload": "txt1' AND '1'='2",
+      "type": "Boolean-based Blind SQL Injection",
+      "evidence": "Boolean-based difference detected",
+      "severity": "MEDIUM",
+      "location": "https://www.youtube.com/howyoutubeworks",
+      "timestamp": "2026-06-09T12:57:54.153076"
+    },
+    {
+      "parameter": "u",
+      "payload": "https://www.youtube.com/howyoutubeworks?utm_source=ythp&utm_medium=LeftNav&utm_campaign=ytgen1' AND '1'='2",
+      "type": "Boolean-based Blind SQL Injection",
+      "evidence": "Boolean-based difference detected",
+      "severity": "MEDIUM",
+      "location": "https://www.youtube.com/howyoutubeworks",
+      "timestamp": "2026-06-09T12:57:56.544840"
+    }
+  ],
+  "scan_id": "1b864005",
+  "timestamp": "2026-06-09T12:58:00.220098"
+}
